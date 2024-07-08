@@ -15,4 +15,4 @@ from
 	dvd_tb dt
     left outer join producer_tb pdt on(pdt.producer_id = dt.producer_id)
     left outer join publisher_tb pbt on(pbt.publisher_id = dt.publisher_id)
-limit 10, 10; # 페이지네이션할때 사용
+limit 10, 10; # 페이지네이션할때 사용 (limit 시작점, 개수)
