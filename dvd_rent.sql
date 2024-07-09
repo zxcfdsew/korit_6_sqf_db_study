@@ -22,7 +22,7 @@ from
 					where
 						dvd_id < 1001
 					order by
-						dvd_id) rt2 on(rt2.dvd_id 
+						dvd_id) rt2 on(rt2.dvd_id);
     
 select * from rental_tb;
 
